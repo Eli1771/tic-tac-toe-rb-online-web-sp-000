@@ -117,6 +117,7 @@ def winner(board)
 end 
 
 def play(board)
+<<<<<<< HEAD
   until over?(board) 
     turn(board)
   end 
@@ -124,5 +125,9 @@ def play(board)
     puts "Congratulations #{winner(board)}!"
   elsif draw?(board)
     puts "Cat's Game!"
+=======
+  9.times do 
+    turn(board)
+>>>>>>> a4e865d812dc2d4b928525e7805fce03a873543d
   end
 end 
